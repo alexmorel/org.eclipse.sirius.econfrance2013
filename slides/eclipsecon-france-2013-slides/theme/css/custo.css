@@ -1,0 +1,211 @@
+b {
+	color:#800000;
+}
+article {
+	color:#515151;
+}
+
+.stroke {
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.rightaligned {
+	text-align:right;
+}
+
+.noBullets {
+list-style: none;
+}
+
+.partTitle aside{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	z-index:1;
+}
+.partTitle h2 {
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+position: relative;
+color:white;
+top: 85px;
+left:-20px;
+z-index:54;
+}
+
+.paddinger {
+ margin-left:100px;
+ padding-left:20px;
+ padding-bottom:20px;
+ background-color:#F8F8F8 ;
+ -moz-border-radius: 15px;
+ border-radius: 15px; 
+ border: 1px solid grey;
+ padding-right:20px;
+}
+.paddinger p {
+font-size:24px;
+}
+  
+.intent_content {
+	margin-top:15px;
+	margin-left : 50px;
+	margin-right : 50px;
+	padding-left : 50px;
+	padding-top:15px;
+	padding-bottom:10px;
+	background-color:#F8F8F8 ;
+	font-size: 18px;
+	border: 1px solid grey;
+	color:black;
+}
+
+.focused {
+	font-style:bold;
+	font-size:24px;
+	color:white;
+	padding-right:15px;
+	padding-left:15px;
+	background-color:grey;
+	 -moz-border-radius: 5px;
+	border-radius: 5px; 
+	border:1px solid black;
+}
+
+.greyed {
+	color:grey;
+	font-size:14px;
+}
+
+.greyed b {
+	color:grey;
+}
+
+.greyed .kw {
+	color:grey;
+}
+
+.intent_content b {
+	color:black;
+}
+
+
+.intent_content i {
+	font-style:italic;
+	font-size:16px;
+}
+
+.intent_content .kw {
+	color:#800000;
+}
+
+.intent_subsectioncontainer {
+	padding-left : 50px;
+}
+
+.intent_modelingunit {
+	padding-left : 20px;
+	margin-right:50px;
+	padding-bottom:10px;
+	margin-top:5px;
+	padding-top:5px;
+	background-color:#D8D8D8;
+	border: 1px solid grey;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	font-size: 18px;
+	color:black;
+}
+.du {
+font-size: 16px;
+}
+
+slides > slide.nutshell:before {
+  background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "Intent in a nutshell";
+}
+
+slides > slide.part1:before {
+  background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "1. Documentation Sucks";
+}
+
+slides > slide.part2:before {
+  background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "2. Synchronize your doc with Intent";
+}
+
+slides > slide.part3:before {
+  background: url(../../images/Intent/ariadne.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "3. To code synchronization and Beyond";
+}
+slides > slide.part4:before {
+  background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "4. Checking Constraints Sucks";
+}
+slides > slide.part5:before {
+  background: url(../../images/Intent/cdo.jpg) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "5. Documentation sharing sucks";
+}
+slides > slide.partNONE:before {
+ background-size: 0px 0px;
+ content: "";
+}
+
+slides > slide.needyou:before {
+  background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "Intent needs you";
+}
+
+slides > slide.cooking:before {
+  background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "What's cooking?";
+}
+slides > slide.three_things:before {
+  background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "The 3 things to remember";
+}
+
+slides > slide.thanks:before {
+  background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
+    -webkit-background-size: 30px 30px;
+  -moz-background-size: 30px 30px;
+  -o-background-size: 30px 30px;
+  background-size: 30px 30px;
+  content: "Thank You!";
+}

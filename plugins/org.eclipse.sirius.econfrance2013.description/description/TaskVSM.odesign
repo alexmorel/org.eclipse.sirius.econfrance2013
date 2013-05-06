@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:description_1="http://www.obeo.fr/dsl/viewpoint/table/description/1.1.0" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:tool="http://www.obeo.fr/dsl/viewpoint/description/tool/1.1.0" name="Tasks" version="6.5.0.201210011230">
+  <ownedViewpoints name="Management"/>
+  <ownedViewpoints name="Projects">
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Projects Overview Diagram" titleExpression="Projects Overview Diagram" domainClass="tasks.TaskRepository">
+      <metamodel href="../../org.eclipse.sirius.example.tasks.model/model/tasks.ecore#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="Project" semanticCandidatesExpression="[self.projects/]" domainClass="tasks.Project">
+          <subNodeMappings name="Version" semanticCandidatesExpression="[self.versions/]" domainClass="tasks.ProjectVersion">
+            <style xsi:type="style:SquareDescription" labelFormat="bold" labelExpression="[name/]" sizeComputationExpression="15" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" labelFormat="bold" labelExpression="[self.name/]">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Project Management">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create Project Version" label="Project Version" nodeMappings="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subNodeMappings[name='Version']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:CreateInstance" typeName="tasks.ProjectVersion" referenceName="versions">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[self.eContainer(Project).name + '.newVersion'/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Project Version Diagram" titleExpression="[self.name + '- Version Diagram'/]" domainClass="tasks.ProjectVersion">
+      <layout xsi:type="description:CompositeLayout"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="Person to task" sourceMapping="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']" targetMapping="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Task']" targetFinderExpression="[self.isInvolvedInTasks/]">
+          <style sizeComputationExpression="2" routingStyle="tree">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Task" semanticCandidatesExpression="[self.tasks/]" domainClass="tasks.Task" listContainer="true">
+          <style xsi:type="style:FlatContainerStyleDescription" labelExpression="[name + ' (remaining: ' + self.remaining+ ')'/]">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="Person" domainClass="tasks.Person" listContainer="true">
+          <subNodeMappings name="Assigned tasks" semanticCandidatesExpression="[self.isInvolvedInTasks/]" domainClass="tasks.Task">
+            <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" labelExpression="[firstName + ' ' + lastName/]">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Assign Person to Task" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="isInvolvedInTasks" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:CrossTableDescription" name="Tasks to Persons CrossTable" titleExpression="[self.name + ' - Tasks to Persons Table'/]" domainClass="tasks.ProjectVersion">
+      <ownedLineMappings name="Task" domainClass="tasks.Task" semanticCandidatesExpression="[self.tasks/]" headerLabelExpression="[self.name/]">
+        <defaultForeground>
+          <foreGroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+        </defaultForeground>
+        <defaultBackground>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultBackground>
+      </ownedLineMappings>
+      <ownedColumnMappings name="Person" headerLabelExpression="[self.firstName + ' ' + self.lastName/]" domainClass="tasks.Person" semanticCandidatesExpression="[self.eContainer(TaskRepository).persons/]">
+        <defaultForeground>
+          <foreGroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+        </defaultForeground>
+        <defaultBackground>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultBackground>
+      </ownedColumnMappings>
+      <intersection name="Task To Person" lineMapping="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@ownedLineMappings[name='Task']" columnMapping="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@ownedColumnMappings.0" labelExpression="X" columnFinderExpression="[self.assignee/]">
+        <defaultForeground>
+          <foreGroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+        </defaultForeground>
+        <defaultBackground>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultBackground>
+      </intersection>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="Individuals">
+    <ownedRepresentations xsi:type="description_1:EditionTableDescription" name="Current Tasks Diagram" titleExpression="[self.firstName + ' ' + self.lastName + ' - Current Tasks Diagram'/]" domainClass="tasks.Person">
+      <ownedLineMappings name="Current Task" domainClass="tasks.Task" semanticCandidatesExpression="[self.isInvolvedInTasks/]" headerLabelExpression="[name/]"/>
+      <ownedColumnMappings name="Project Version" headerLabelExpression="Project Version" featureName="name" labelExpression="[self.eContainer(ProjectVersion).name/]"/>
+      <ownedColumnMappings name="kind" headerLabelExpression="Kind" featureName="kind" labelExpression="[self.oclAsType(Task).kind/]"/>
+      <ownedColumnMappings name="Priority" headerLabelExpression="Priority" featureName="priority" labelExpression="[self.oclAsType(Task).priority/]"/>
+      <ownedColumnMappings name="Remaining" headerLabelExpression="Remainging (estimated)" featureName="remaining" labelExpression="[self.oclAsType(Task).remaining/]"/>
+      <ownedColumnMappings name="Due Date" headerLabelExpression="Due Date" featureName="dueDate" labelExpression="[self.oclAsType(Task).dueDate/]"/>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

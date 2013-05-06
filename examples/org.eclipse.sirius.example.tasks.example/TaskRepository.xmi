@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tasks:TaskRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tasks="http://www.eclipse.org/sirius/examples/tasks" xsi:schemaLocation="http://www.eclipse.org/sirius/examples/tasks ../org.eclipse.sirius.example.tasks.model/model/tasks.ecore">
+  <projects name="Intent" id="org.eclipse.mylyn.docs.Intent" isLeadBy="//@persons.0">
+    <versions name="Intent 0.7" id="org.eclipse.mylyn.docs.intent.0.7"/>
+    <versions name="Intent 0.8" id="0.8">
+      <tasks name="Bug 1" dueDate="2012-06-20T00:00:00.000+0200" remaining="3.5" assignee="//@persons.0"/>
+      <tasks name="Bug 2" assignee="//@persons.1"/>
+      <tasks name="Bug 3" remaining="1.5" assignee="//@persons.0"/>
+    </versions>
+  </projects>
+  <projects name="Sirus" id="org.eclipse.sirius" isLeadBy="//@persons.1">
+    <versions name="Sirius 0.7">
+      <tasks name="Bug 1"/>
+      <tasks name="Bug 2"/>
+      <tasks name="Bug 3"/>
+    </versions>
+  </projects>
+  <persons firstName="Alex" lastName="Lagarde" isInvolvedInTasks="//@projects.0/@versions.1/@tasks.0 //@projects.0/@versions.1/@tasks.2" leads="//@projects.0"/>
+  <persons firstName="Pierre-Charles" lastName="David" isInvolvedInTasks="//@projects.0/@versions.1/@tasks.1" leads="//@projects.1"/>
+</tasks:TaskRepository>
