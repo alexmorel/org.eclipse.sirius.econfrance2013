@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:description_1="http://www.obeo.fr/dsl/viewpoint/table/description/1.1.0" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:tool="http://www.obeo.fr/dsl/viewpoint/description/tool/1.1.0" name="Tasks" version="6.5.0.201210011230">
+  <ownedViewpoints name="Management"/>
+  <ownedViewpoints name="Projects">
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="Project Version Diagram" titleExpression="[self.name + '- Version Diagram'/]" domainClass="tasks.Project">
+      <defaultLayer name="Default">
+        <nodeMappings name="Person" semanticCandidatesExpression="[self.eContainer(TaskRepository).persons/]" domainClass="tasks.Person">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="[firstName + ' ' + lastName/]" labelAlignment="LEFT" workspacePath="org.eclipse.sirius.example.tasks.description/icons/man.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Person to task" sourceMapping="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@nodeMappings[name='Person']" targetMapping="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']" targetFinderExpression="[self.isInvolvedInTasks/]">
+          <style sizeComputationExpression="2" routingStyle="tree">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Project Version" semanticCandidatesExpression="[self.versions/]" domainClass="tasks.ProjectVersion">
+          <subContainerMappings name="Task" semanticCandidatesExpression="[self.tasks/]" domainClass="tasks.Task" listContainer="true">
+            <style xsi:type="style:FlatContainerStyleDescription" arcWidth="4" arcHeight="4" labelExpression="[name + ' (remaining: ' + self.remaining+ ')'/]" roundedCorner="true" backgroundStyle="GradientTopToBottom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="10" arcHeight="10" labelSize="12" labelFormat="bold" roundedCorner="true" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Version" containerMappings="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']" iconPath="org.eclipse.sirius.example.tasks.description/icons/version.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:CreateInstance" typeName="tasks.ProjectVersion" referenceName="versions">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="[eContainer(Project).name + ' newVersion'/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Create Task" containerMappings="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']" iconPath="org.eclipse.sirius.example.tasks.description/icons/task.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:CreateInstance" typeName="tasks.Task" referenceName="tasks">
+                <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="New Task"/>
+                <subModelOperations xsi:type="tool:SetValue" featureName="remaining" valueExpression="1.0"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Assign Person to Task" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']" iconPath="org.eclipse.sirius.example.tasks.description/icons/assign.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool:SetValue" featureName="isInvolvedInTasks" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="Individuals">
+    <ownedRepresentations xsi:type="description_1:EditionTableDescription" name="Current Tasks Table" titleExpression="[self.firstName + ' ' + self.lastName + ' - Current Tasks Diagram'/]" domainClass="tasks.Person">
+      <ownedLineMappings name="Current Task" domainClass="tasks.Task" semanticCandidatesExpression="[self.isInvolvedInTasks/]" headerLabelExpression="[name/]"/>
+      <ownedColumnMappings name="Project Version" headerLabelExpression="Project Version" featureName="name" labelExpression="[self.eContainer(ProjectVersion).name/]"/>
+      <ownedColumnMappings name="kind" headerLabelExpression="Kind" featureName="kind" labelExpression="[self.oclAsType(Task).kind/]"/>
+      <ownedColumnMappings name="Priority" headerLabelExpression="Priority" featureName="priority" labelExpression="[self.oclAsType(Task).priority/]"/>
+      <ownedColumnMappings name="Remaining" headerLabelExpression="Remainging (estimated)" featureName="remaining" labelExpression="[self.oclAsType(Task).remaining/]"/>
+      <ownedColumnMappings name="Due Date" headerLabelExpression="Due Date" featureName="dueDate" labelExpression="[self.oclAsType(Task).dueDate/]>"/>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

@@ -1,602 +1,315 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/table/description/1.1.0" xmlns:description_1="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:table="http://www.obeo.fr/dsl/viewpoint/table/1.1.0" xmlns:tasks="http://www.eclipse.org/sirius/examples/tasks" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/table/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/table/1.1.0#//description http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description/style http://www.eclipse.org/sirius/examples/tasks platform:/resource/org.eclipse.sirius.example.tasks.model/model/tasks.ecore" xmi:id="_xsKcQLZeEeK5qemgIM7FkA" selectedViews="_FJ1D8LZhEeK5qemgIM7FkA _FLLHwLZhEeK5qemgIM7FkA _FLWt8LZhEeK5qemgIM7FkA" version="6.5.0.201210011230">
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:tasks="http://www.eclipse.org/sirius/examples/tasks" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description/style http://www.eclipse.org/sirius/examples/tasks platform:/resource/org.eclipse.sirius.example.tasks.model/model/tasks.ecore" xmi:id="_TDvAYb1vEeKDVdOV5nq1Rg" selectedViews="_T-jC0L1vEeKDVdOV5nq1Rg _T_NxML1vEeKDVdOV5nq1Rg _T_O_UL1vEeKDVdOV5nq1Rg" version="6.5.0.201210011230">
   <models xmi:type="tasks:TaskRepository" href="TaskRepository.xmi#/"/>
-  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_FJ1D8LZhEeK5qemgIM7FkA" initialized="true">
-    <ownedRepresentations xmi:type="table:DTable" xmi:id="_rEjz4LcTEeKGQpL9uELK5Q" name="Alex Lagarde - Current Tasks Diagram" headerColumnWidth="78">
-      <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
-      <lines xmi:type="table:DLine" xmi:id="_rEjz4bcTEeKGQpL9uELK5Q" label="Bug 1">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        <originMapping xmi:type="description:LineMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedLineMappings[name='Current%20Task']"/>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz4rcTEeKGQpL9uELK5Q" label="Intent 0.8" column="_rEjz7bcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz47cTEeKGQpL9uELK5Q" label="Bug" column="_rEjz7rcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz5LcTEeKGQpL9uELK5Q" label="Minor" column="_rEjz77cTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz5bcTEeKGQpL9uELK5Q" label="3.5" column="_rEjz8LcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz5rcTEeKGQpL9uELK5Q" label="Wed Jun 20 00:00:00 CEST 2012" column="_rEjz8bcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        </cells>
-      </lines>
-      <lines xmi:type="table:DLine" xmi:id="_rEjz57cTEeKGQpL9uELK5Q" label="Bug 3">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        <originMapping xmi:type="description:LineMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedLineMappings[name='Current%20Task']"/>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz6LcTEeKGQpL9uELK5Q" label="Intent 0.8" column="_rEjz7bcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz6bcTEeKGQpL9uELK5Q" label="Bug" column="_rEjz7rcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz6rcTEeKGQpL9uELK5Q" label="Minor" column="_rEjz77cTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz67cTEeKGQpL9uELK5Q" label="1.5" column="_rEjz8LcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_rEjz7LcTEeKGQpL9uELK5Q" column="_rEjz8bcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        </cells>
-      </lines>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_rEjz7bcTEeKGQpL9uELK5Q" label="Project Version" cells="_rEjz4rcTEeKGQpL9uELK5Q _rEjz6LcTEeKGQpL9uELK5Q" width="103" featureName="name">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='Project%20Version']"/>
-      </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_rEjz7rcTEeKGQpL9uELK5Q" label="Kind" cells="_rEjz47cTEeKGQpL9uELK5Q _rEjz6bcTEeKGQpL9uELK5Q" width="41" featureName="kind">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='kind']"/>
-      </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_rEjz77cTEeKGQpL9uELK5Q" label="Priority" cells="_rEjz5LcTEeKGQpL9uELK5Q _rEjz6rcTEeKGQpL9uELK5Q" width="56" featureName="priority">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='Priority']"/>
-      </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_rEjz8LcTEeKGQpL9uELK5Q" label="Remainging (estimated)" cells="_rEjz5bcTEeKGQpL9uELK5Q _rEjz67cTEeKGQpL9uELK5Q" width="153" featureName="remaining">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='Remaining']"/>
-      </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_rEjz8bcTEeKGQpL9uELK5Q" label="Due Date" cells="_rEjz5rcTEeKGQpL9uELK5Q _rEjz7LcTEeKGQpL9uELK5Q" width="202" featureName="dueDate">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='Due%20Date']"/>
-      </columns>
-      <description xmi:type="description:EditionTableDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']"/>
-    </ownedRepresentations>
-    <ownedRepresentations xmi:type="table:DTable" xmi:id="_ryWG8LcTEeKGQpL9uELK5Q" name="Pierre-Charles David - Current Tasks Diagram" headerColumnWidth="78">
-      <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
-      <lines xmi:type="table:DLine" xmi:id="_ryWG8bcTEeKGQpL9uELK5Q" label="Bug 2">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        <originMapping xmi:type="description:LineMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedLineMappings[name='Current%20Task']"/>
-        <cells xmi:type="table:DCell" xmi:id="_ryWG8rcTEeKGQpL9uELK5Q" label="Intent 0.8" column="_ryWG97cTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_ryWG87cTEeKGQpL9uELK5Q" label="Bug" column="_ryWG-LcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_ryWG9LcTEeKGQpL9uELK5Q" label="Minor" column="_ryWG-bcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_ryWG9bcTEeKGQpL9uELK5Q" label="0.0" column="_ryWG-rcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        </cells>
-        <cells xmi:type="table:DCell" xmi:id="_ryWG9rcTEeKGQpL9uELK5Q" column="_ryWG-7cTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        </cells>
-      </lines>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_ryWG97cTEeKGQpL9uELK5Q" label="Project Version" cells="_ryWG8rcTEeKGQpL9uELK5Q" width="103" featureName="name">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='Project%20Version']"/>
-      </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_ryWG-LcTEeKGQpL9uELK5Q" label="Kind" cells="_ryWG87cTEeKGQpL9uELK5Q" width="41" featureName="kind">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='kind']"/>
-      </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_ryWG-bcTEeKGQpL9uELK5Q" label="Priority" cells="_ryWG9LcTEeKGQpL9uELK5Q" width="56" featureName="priority">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='Priority']"/>
-      </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_ryWG-rcTEeKGQpL9uELK5Q" label="Remainging (estimated)" cells="_ryWG9bcTEeKGQpL9uELK5Q" width="153" featureName="remaining">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='Remaining']"/>
-      </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_ryWG-7cTEeKGQpL9uELK5Q" label="Due Date" cells="_ryWG9rcTEeKGQpL9uELK5Q" width="69" featureName="dueDate">
-        <originMapping xmi:type="description:FeatureColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']/@ownedColumnMappings[name='Due%20Date']"/>
-      </columns>
-      <description xmi:type="description:EditionTableDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']/@ownedRepresentations[name='Current%20Tasks%20Diagram']"/>
-    </ownedRepresentations>
-    <viewpoint xmi:type="description_1:Viewpoint" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Individuals']"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_T-jC0L1vEeKDVdOV5nq1Rg" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Management']"/>
   </ownedViews>
-  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_FLLHwLZhEeK5qemgIM7FkA" initialized="true">
-    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_T9Nt0LZjEeK5qemgIM7FkA" name="Intent - Versions Diagram">
-      <ownedAnnotationEntries xmi:type="description_1:AnnotationEntry" xmi:id="_T9bJMLZjEeK5qemgIM7FkA" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="_T9bJMbZjEeK5qemgIM7FkA" type="Viewpoint" element="_T9Nt0LZjEeK5qemgIM7FkA" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_T9dlcLZjEeK5qemgIM7FkA" type="2001" element="_T9Nt0bZjEeK5qemgIM7FkA">
-            <children xmi:type="notation:Node" xmi:id="_T9faoLZjEeK5qemgIM7FkA" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_T9faobZjEeK5qemgIM7FkA" x="31"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_T_NxML1vEeKDVdOV5nq1Rg" initialized="true">
+    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_b6qdcL1yEeKTlYzUX9hikA" name="Intent- Version Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_b8zygL1yEeKTlYzUX9hikA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_b8zygb1yEeKTlYzUX9hikA" type="Viewpoint" element="_b6qdcL1yEeKTlYzUX9hikA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_b80ZkL1yEeKTlYzUX9hikA" type="2001" element="_b6qdcb1yEeKTlYzUX9hikA">
+            <children xmi:type="notation:Node" xmi:id="_b81AoL1yEeKTlYzUX9hikA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_b81Aob1yEeKTlYzUX9hikA" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_T9mvYLZjEeK5qemgIM7FkA" type="3003" element="_T9OU4LZjEeK5qemgIM7FkA">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_T9mvYbZjEeK5qemgIM7FkA" fontName="Segoe UI"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T9mvYrZjEeK5qemgIM7FkA"/>
+            <children xmi:type="notation:Node" xmi:id="_b9Am0L1yEeKTlYzUX9hikA" type="3005" element="_b6qdcr1yEeKTlYzUX9hikA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_b9Am0b1yEeKTlYzUX9hikA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9Am0r1yEeKTlYzUX9hikA"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_T9dlcbZjEeK5qemgIM7FkA" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T9dlcrZjEeK5qemgIM7FkA" x="64" y="124" width="124" height="64"/>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_b80Zkb1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b80Zkr1yEeKTlYzUX9hikA" x="887" y="145" width="30" height="30"/>
           </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="_T9bJMrZjEeK5qemgIM7FkA"/>
+          <children xmi:type="notation:Node" xmi:id="_b83c4L1yEeKTlYzUX9hikA" type="2001" element="_b6qddb1yEeKTlYzUX9hikA">
+            <children xmi:type="notation:Node" xmi:id="_b84rAL1yEeKTlYzUX9hikA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_b84rAb1yEeKTlYzUX9hikA" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_b9B08L1yEeKTlYzUX9hikA" type="3005" element="_b6qddr1yEeKTlYzUX9hikA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_b9B08b1yEeKTlYzUX9hikA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9B08r1yEeKTlYzUX9hikA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_b83c4b1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b83c4r1yEeKTlYzUX9hikA" x="977" y="145" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_b86gML1yEeKTlYzUX9hikA" type="2002" element="_b6qdeb1yEeKTlYzUX9hikA">
+            <children xmi:type="notation:Node" xmi:id="_b87uUL1yEeKTlYzUX9hikA" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_b87uUb1yEeKTlYzUX9hikA" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_b87uUr1yEeKTlYzUX9hikA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_b87uU71yEeKTlYzUX9hikA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_b86gMb1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b86gMr1yEeKTlYzUX9hikA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_b88VYL1yEeKTlYzUX9hikA" type="2002" element="_b6qdf71yEeKTlYzUX9hikA">
+            <children xmi:type="notation:Node" xmi:id="_b888cL1yEeKTlYzUX9hikA" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_b89jgL1yEeKTlYzUX9hikA" type="7001">
+              <children xmi:type="notation:Node" xmi:id="_b9DDEL1yEeKTlYzUX9hikA" type="3009" element="_b6qdhb1yEeKTlYzUX9hikA">
+                <children xmi:type="notation:Node" xmi:id="_b9ERML1yEeKTlYzUX9hikA" type="5004"/>
+                <children xmi:type="notation:Node" xmi:id="_b9ERMb1yEeKTlYzUX9hikA" type="7003">
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_b9ERMr1yEeKTlYzUX9hikA"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_b9ERM71yEeKTlYzUX9hikA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_b9DDEb1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9DDEr1yEeKTlYzUX9hikA" x="30" y="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_b9E4QL1yEeKTlYzUX9hikA" type="3009" element="_b6qdi71yEeKTlYzUX9hikA">
+                <children xmi:type="notation:Node" xmi:id="_b9FfUL1yEeKTlYzUX9hikA" type="5004"/>
+                <children xmi:type="notation:Node" xmi:id="_b9GGYL1yEeKTlYzUX9hikA" type="7003">
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_b9GGYb1yEeKTlYzUX9hikA"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_b9GGYr1yEeKTlYzUX9hikA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_b9E4Qb1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9E4Qr1yEeKTlYzUX9hikA" x="208" y="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_b9GtcL1yEeKTlYzUX9hikA" type="3009" element="_b6qdkb1yEeKTlYzUX9hikA">
+                <children xmi:type="notation:Node" xmi:id="_b9IioL1yEeKTlYzUX9hikA" type="5004"/>
+                <children xmi:type="notation:Node" xmi:id="_b9K-4L1yEeKTlYzUX9hikA" type="7003">
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_b9K-4b1yEeKTlYzUX9hikA"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_b9K-4r1yEeKTlYzUX9hikA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_b9Gtcb1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9Gtcr1yEeKTlYzUX9hikA" x="416" y="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_b9MNAL1yEeKTlYzUX9hikA" type="3009" element="_b6rEgL1yEeKTlYzUX9hikA">
+                <children xmi:type="notation:Node" xmi:id="_b9M0EL1yEeKTlYzUX9hikA" type="5004"/>
+                <children xmi:type="notation:Node" xmi:id="_b9NbIL1yEeKTlYzUX9hikA" type="7003">
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_b9NbIb1yEeKTlYzUX9hikA"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_b9NbIr1yEeKTlYzUX9hikA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_b9MNAb1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9MNAr1yEeKTlYzUX9hikA" x="624" y="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_b9OCML1yEeKTlYzUX9hikA" type="3009" element="_b6rEhr1yEeKTlYzUX9hikA">
+                <children xmi:type="notation:Node" xmi:id="_b9P3YL1yEeKTlYzUX9hikA" type="5004"/>
+                <children xmi:type="notation:Node" xmi:id="_b9QecL1yEeKTlYzUX9hikA" type="7003">
+                  <styles xmi:type="notation:SortingStyle" xmi:id="_b9Qecb1yEeKTlYzUX9hikA"/>
+                  <styles xmi:type="notation:FilteringStyle" xmi:id="_b9Qecr1yEeKTlYzUX9hikA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_b9OCMb1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9OCMr1yEeKTlYzUX9hikA" x="855" y="30"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_b89jgb1yEeKTlYzUX9hikA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_b89jgr1yEeKTlYzUX9hikA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_b88VYb1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b88VYr1yEeKTlYzUX9hikA" x="434"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_b8-xoL1yEeKTlYzUX9hikA" type="2002" element="_b6rEjL1yEeKTlYzUX9hikA">
+            <children xmi:type="notation:Node" xmi:id="_b8_YsL1yEeKTlYzUX9hikA" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_b8__wL1yEeKTlYzUX9hikA" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_b8__wb1yEeKTlYzUX9hikA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_b8__wr1yEeKTlYzUX9hikA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_b8-xob1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b8-xor1yEeKTlYzUX9hikA" x="210"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_b8zygr1yEeKTlYzUX9hikA"/>
+          <edges xmi:type="notation:Edge" xmi:id="_b9RskL1yEeKTlYzUX9hikA" type="4001" element="_b6rEkr1yEeKTlYzUX9hikA" source="_b80ZkL1yEeKTlYzUX9hikA" target="_b9DDEL1yEeKTlYzUX9hikA">
+            <children xmi:type="notation:Node" xmi:id="_b9SToL1yEeKTlYzUX9hikA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9STob1yEeKTlYzUX9hikA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_b9STor1yEeKTlYzUX9hikA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9STo71yEeKTlYzUX9hikA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_b9S6sL1yEeKTlYzUX9hikA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9S6sb1yEeKTlYzUX9hikA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_b9Rskb1yEeKTlYzUX9hikA" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_b9Rskr1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b9Rsk71yEeKTlYzUX9hikA" points="[0, 0, 0, 0]$[-1, -1, -1, -1]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b9ThwL1yEeKTlYzUX9hikA" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b9UI0L1yEeKTlYzUX9hikA" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_b9UI0b1yEeKTlYzUX9hikA" type="4001" element="_b6rEl71yEeKTlYzUX9hikA" source="_b83c4L1yEeKTlYzUX9hikA" target="_b9E4QL1yEeKTlYzUX9hikA">
+            <children xmi:type="notation:Node" xmi:id="_b9Uv4L1yEeKTlYzUX9hikA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9Uv4b1yEeKTlYzUX9hikA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_b9Uv4r1yEeKTlYzUX9hikA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9Uv471yEeKTlYzUX9hikA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_b9VW8L1yEeKTlYzUX9hikA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9VW8b1yEeKTlYzUX9hikA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_b9UI0r1yEeKTlYzUX9hikA" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_b9UI071yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b9UI1L1yEeKTlYzUX9hikA" points="[0, 0, 0, 0]$[-1, -1, -1, -1]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b9V-AL1yEeKTlYzUX9hikA" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b9V-Ab1yEeKTlYzUX9hikA" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_b9WlEL1yEeKTlYzUX9hikA" type="4001" element="_b6rEnL1yEeKTlYzUX9hikA" source="_b83c4L1yEeKTlYzUX9hikA" target="_b9OCML1yEeKTlYzUX9hikA">
+            <children xmi:type="notation:Node" xmi:id="_b9XMIL1yEeKTlYzUX9hikA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9XMIb1yEeKTlYzUX9hikA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_b9XMIr1yEeKTlYzUX9hikA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9XMI71yEeKTlYzUX9hikA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_b9XMJL1yEeKTlYzUX9hikA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9XMJb1yEeKTlYzUX9hikA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_b9WlEb1yEeKTlYzUX9hikA" routing="Tree"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_b9WlEr1yEeKTlYzUX9hikA" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b9WlE71yEeKTlYzUX9hikA" points="[0, 0, 0, 0]$[-1, -1, -1, -1]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b9YaQL1yEeKTlYzUX9hikA" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b9YaQb1yEeKTlYzUX9hikA" id="(0.5,0.5)"/>
+          </edges>
         </data>
       </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_T9Nt0bZjEeK5qemgIM7FkA" name="Intent 0.8" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_b6qdcb1yEeKTlYzUX9hikA" name="Alex Lagarde" outgoingEdges="_b6rEkr1yEeKTlYzUX9hikA" width="3" height="3">
+        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
+        <semanticElements xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_b6qdcr1yEeKTlYzUX9hikA" showIcon="false" labelAlignment="LEFT" workspacePath="org.eclipse.sirius.example.tasks.description/icons/man.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdc71yEeKTlYzUX9hikA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qddL1yEeKTlYzUX9hikA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_b6qddb1yEeKTlYzUX9hikA" name="Pierre-Charles David" outgoingEdges="_b6rEl71yEeKTlYzUX9hikA _b6rEnL1yEeKTlYzUX9hikA" width="3" height="3">
+        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
+        <semanticElements xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
+        <ownedStyle xmi:type="viewpoint:WorkspaceImage" xmi:id="_b6qddr1yEeKTlYzUX9hikA" showIcon="false" labelAlignment="LEFT" workspacePath="org.eclipse.sirius.example.tasks.description/icons/man.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdd71yEeKTlYzUX9hikA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@nodeMappings[name='Person']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdeL1yEeKTlYzUX9hikA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@nodeMappings[name='Person']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_b6qdeb1yEeKTlYzUX9hikA" name="Intent 0.7">
         <target xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.0"/>
         <semanticElements xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.0"/>
-        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="viewpoint:Square" xmi:id="_T9OU4LZjEeK5qemgIM7FkA" labelFormat="bold" labelPosition="node">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_crYX0LZjEeK5qemgIM7FkA" red="255" green="255" blue="255"/>
-          <description xmi:type="style:SquareDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Versions%20Diagram']/@defaultLayer/@nodeMappings[name='Version']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_T9OU4rZjEeK5qemgIM7FkA"/>
-          <color xmi:type="viewpoint:RGBValues" xmi:id="_T9OU47ZjEeK5qemgIM7FkA" red="136" green="136" blue="136"/>
+        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_b6qder1yEeKTlYzUX9hikA" labelSize="12" labelFormat="bold" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qde71yEeKTlYzUX9hikA"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdfL1yEeKTlYzUX9hikA" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdfb1yEeKTlYzUX9hikA" red="209" green="209" blue="209"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdfr1yEeKTlYzUX9hikA" red="209" green="209" blue="209"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Versions%20Diagram']/@defaultLayer/@nodeMappings[name='Version']"/>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']"/>
       </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Versions%20Diagram']"/>
-      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_T9OU5LZjEeK5qemgIM7FkA"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Versions%20Diagram']/@defaultLayer"/>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_b6qdf71yEeKTlYzUX9hikA" name="Intent 0.8">
+        <target xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.1"/>
+        <semanticElements xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.1"/>
+        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_b6qdgL1yEeKTlYzUX9hikA" labelSize="12" labelFormat="bold" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdgb1yEeKTlYzUX9hikA"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdgr1yEeKTlYzUX9hikA" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdg71yEeKTlYzUX9hikA" red="209" green="209" blue="209"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdhL1yEeKTlYzUX9hikA" red="209" green="209" blue="209"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']"/>
+        <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_b6qdhb1yEeKTlYzUX9hikA" name="Bug 1 (remaining: 3.5)" incomingEdges="_b6rEkr1yEeKTlYzUX9hikA">
+          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
+          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
+          <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_b6qdhr1yEeKTlYzUX9hikA" backgroundStyle="GradientTopToBottom">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdh71yEeKTlYzUX9hikA"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdiL1yEeKTlYzUX9hikA" red="39" green="76" blue="114"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdib1yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdir1yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_b6qdi71yEeKTlYzUX9hikA" name="Bug 2 (remaining: 0.0)" incomingEdges="_b6rEl71yEeKTlYzUX9hikA">
+          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
+          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
+          <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_b6qdjL1yEeKTlYzUX9hikA" backgroundStyle="GradientTopToBottom">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdjb1yEeKTlYzUX9hikA"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdjr1yEeKTlYzUX9hikA" red="39" green="76" blue="114"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdj71yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdkL1yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_b6qdkb1yEeKTlYzUX9hikA" name="Bug 3 (remaining: 1.5)">
+          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
+          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
+          <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_b6qdkr1yEeKTlYzUX9hikA" backgroundStyle="GradientTopToBottom">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdk71yEeKTlYzUX9hikA"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdlL1yEeKTlYzUX9hikA" red="39" green="76" blue="114"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdlb1yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6qdlr1yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_b6rEgL1yEeKTlYzUX9hikA" name="New Task (remaining: 0.0)">
+          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.3"/>
+          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.3"/>
+          <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_b6rEgb1yEeKTlYzUX9hikA" backgroundStyle="GradientTopToBottom">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEgr1yEeKTlYzUX9hikA"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEg71yEeKTlYzUX9hikA" red="39" green="76" blue="114"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEhL1yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEhb1yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_b6rEhr1yEeKTlYzUX9hikA" name="New Task (remaining: 1.0)" incomingEdges="_b6rEnL1yEeKTlYzUX9hikA">
+          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.4"/>
+          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.4"/>
+          <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_b6rEh71yEeKTlYzUX9hikA" backgroundStyle="GradientTopToBottom">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEiL1yEeKTlYzUX9hikA"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEib1yEeKTlYzUX9hikA" red="39" green="76" blue="114"/>
+            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEir1yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEi71yEeKTlYzUX9hikA" red="114" green="159" blue="207"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@subContainerMappings[name='Task']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_b6rEjL1yEeKTlYzUX9hikA" name="Intent newVersion">
+        <target xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.2"/>
+        <semanticElements xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.2"/>
+        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_b6rEjb1yEeKTlYzUX9hikA" labelSize="12" labelFormat="bold" backgroundStyle="Liquid">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEjr1yEeKTlYzUX9hikA"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEj71yEeKTlYzUX9hikA" red="69" green="69" blue="69"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEkL1yEeKTlYzUX9hikA" red="209" green="209" blue="209"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEkb1yEeKTlYzUX9hikA" red="209" green="209" blue="209"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Project%20Version']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_b6rEkr1yEeKTlYzUX9hikA" sourceNode="_b6qdcb1yEeKTlYzUX9hikA" targetNode="_b6qdhb1yEeKTlYzUX9hikA">
+        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_b6rEk71yEeKTlYzUX9hikA" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rElL1yEeKTlYzUX9hikA" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_b6rElb1yEeKTlYzUX9hikA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rElr1yEeKTlYzUX9hikA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_b6rEl71yEeKTlYzUX9hikA" sourceNode="_b6qddb1yEeKTlYzUX9hikA" targetNode="_b6qdi71yEeKTlYzUX9hikA">
+        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_b6rEmL1yEeKTlYzUX9hikA" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEmb1yEeKTlYzUX9hikA" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_b6rEmr1yEeKTlYzUX9hikA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEm71yEeKTlYzUX9hikA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_b6rEnL1yEeKTlYzUX9hikA" sourceNode="_b6qddb1yEeKTlYzUX9hikA" targetNode="_b6rEhr1yEeKTlYzUX9hikA">
+        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_b6rEnb1yEeKTlYzUX9hikA" size="2" routingStyle="tree">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEnr1yEeKTlYzUX9hikA" red="136" green="136" blue="136"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_b6rEn71yEeKTlYzUX9hikA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_b6rEoL1yEeKTlYzUX9hikA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description:DiagramDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']"/>
+      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_b6rEob1yEeKTlYzUX9hikA"/>
+      <activatedLayers xmi:type="description:Layer" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer"/>
       <target xmi:type="tasks:Project" href="TaskRepository.xmi#//@projects.0"/>
     </ownedRepresentations>
-    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_ihKPcLcTEeKGQpL9uELK5Q" name="Projects Overview Diagram">
-      <ownedAnnotationEntries xmi:type="description_1:AnnotationEntry" xmi:id="_ihyhkLcTEeKGQpL9uELK5Q" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="_ihyhkbcTEeKGQpL9uELK5Q" type="Viewpoint" element="_ihKPcLcTEeKGQpL9uELK5Q" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_iiKVALcTEeKGQpL9uELK5Q" type="2002" element="_ihKPcbcTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_iiTe8LcTEeKGQpL9uELK5Q" type="5006"/>
-            <children xmi:type="notation:Node" xmi:id="_iiUtELcTEeKGQpL9uELK5Q" type="7001">
-              <children xmi:type="notation:Node" xmi:id="_iiZlkLcTEeKGQpL9uELK5Q" type="3007" element="_ihKPd7cTEeKGQpL9uELK5Q">
-                <children xmi:type="notation:Node" xmi:id="_iicB0LcTEeKGQpL9uELK5Q" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_iicB0bcTEeKGQpL9uELK5Q" y="5"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_iig6ULcTEeKGQpL9uELK5Q" type="3003" element="_ihKPeLcTEeKGQpL9uELK5Q">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_iig6UbcTEeKGQpL9uELK5Q" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iig6UrcTEeKGQpL9uELK5Q"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_iiZlkbcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8" bold="true"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iiZlkrcTEeKGQpL9uELK5Q" x="30" y="30" width="150" height="150"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iieeELcTEeKGQpL9uELK5Q" type="3007" element="_ihKPfLcTEeKGQpL9uELK5Q">
-                <children xmi:type="notation:Node" xmi:id="_iifFILcTEeKGQpL9uELK5Q" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_iifFIbcTEeKGQpL9uELK5Q" y="5"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_iihhYLcTEeKGQpL9uELK5Q" type="3003" element="_ihKPfbcTEeKGQpL9uELK5Q">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_iihhYbcTEeKGQpL9uELK5Q" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iihhYrcTEeKGQpL9uELK5Q"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_iieeEbcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8" bold="true"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iieeErcTEeKGQpL9uELK5Q" x="210" y="30" width="150" height="150"/>
-              </children>
-              <styles xmi:type="notation:SortingStyle" xmi:id="_iiUtEbcTEeKGQpL9uELK5Q"/>
-              <styles xmi:type="notation:FilteringStyle" xmi:id="_iiUtErcTEeKGQpL9uELK5Q"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_iiKVAbcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8" bold="true"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iiKVArcTEeKGQpL9uELK5Q"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_iiV7MLcTEeKGQpL9uELK5Q" type="2002" element="_ihKPgbcTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_iiWiQLcTEeKGQpL9uELK5Q" type="5006"/>
-            <children xmi:type="notation:Node" xmi:id="_iiXJULcTEeKGQpL9uELK5Q" type="7001">
-              <children xmi:type="notation:Node" xmi:id="_iiivgLcTEeKGQpL9uELK5Q" type="3007" element="_ihK2grcTEeKGQpL9uELK5Q">
-                <children xmi:type="notation:Node" xmi:id="_iij9oLcTEeKGQpL9uELK5Q" type="5003">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_iij9obcTEeKGQpL9uELK5Q" y="5"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_iikksLcTEeKGQpL9uELK5Q" type="3003" element="_ihK2g7cTEeKGQpL9uELK5Q">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_iikksbcTEeKGQpL9uELK5Q" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iikksrcTEeKGQpL9uELK5Q"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_iiivgbcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8" bold="true"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iiivgrcTEeKGQpL9uELK5Q" x="30" y="30" width="150" height="150"/>
-              </children>
-              <styles xmi:type="notation:SortingStyle" xmi:id="_iiXJUbcTEeKGQpL9uELK5Q"/>
-              <styles xmi:type="notation:FilteringStyle" xmi:id="_iiXJUrcTEeKGQpL9uELK5Q"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_iiV7MbcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8" bold="true"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iiV7MrcTEeKGQpL9uELK5Q" x="450"/>
-          </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="_ihyhkrcTEeKGQpL9uELK5Q"/>
-        </data>
-      </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_ihKPcbcTEeKGQpL9uELK5Q" name="Intent">
-        <target xmi:type="tasks:Project" href="TaskRepository.xmi#//@projects.0"/>
-        <semanticElements xmi:type="tasks:Project" href="TaskRepository.xmi#//@projects.0"/>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_ihKPcrcTEeKGQpL9uELK5Q" labelFormat="bold">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPc7cTEeKGQpL9uELK5Q"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPdLcTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPdbcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPdrcTEeKGQpL9uELK5Q" red="209" green="209" blue="209"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']"/>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_ihKPd7cTEeKGQpL9uELK5Q" name="Intent 0.7" width="15" height="15" resizeKind="NSEW">
-          <target xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.0"/>
-          <semanticElements xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.0"/>
-          <ownedStyle xmi:type="viewpoint:Square" xmi:id="_ihKPeLcTEeKGQpL9uELK5Q" labelFormat="bold" labelPosition="node">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPebcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-            <description xmi:type="style:SquareDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subNodeMappings[name='Version']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPercTEeKGQpL9uELK5Q"/>
-            <color xmi:type="viewpoint:RGBValues" xmi:id="_ihKPe7cTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subNodeMappings[name='Version']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_ihKPfLcTEeKGQpL9uELK5Q" name="Intent 0.8" width="15" height="15" resizeKind="NSEW">
-          <target xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.1"/>
-          <semanticElements xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.1"/>
-          <ownedStyle xmi:type="viewpoint:Square" xmi:id="_ihKPfbcTEeKGQpL9uELK5Q" labelFormat="bold" labelPosition="node">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPfrcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-            <description xmi:type="style:SquareDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subNodeMappings[name='Version']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPf7cTEeKGQpL9uELK5Q"/>
-            <color xmi:type="viewpoint:RGBValues" xmi:id="_ihKPgLcTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subNodeMappings[name='Version']"/>
-        </ownedDiagramElements>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeContainer" xmi:id="_ihKPgbcTEeKGQpL9uELK5Q" name="Sirus">
-        <target xmi:type="tasks:Project" href="TaskRepository.xmi#//@projects.1"/>
-        <semanticElements xmi:type="tasks:Project" href="TaskRepository.xmi#//@projects.1"/>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_ihKPgrcTEeKGQpL9uELK5Q" labelFormat="bold">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPg7cTEeKGQpL9uELK5Q"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ihKPhLcTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_ihK2gLcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_ihK2gbcTEeKGQpL9uELK5Q" red="209" green="209" blue="209"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']"/>
-        <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_ihK2grcTEeKGQpL9uELK5Q" name="Sirius 0.7" width="15" height="15" resizeKind="NSEW">
-          <target xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.1/@versions.0"/>
-          <semanticElements xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.1/@versions.0"/>
-          <ownedStyle xmi:type="viewpoint:Square" xmi:id="_ihK2g7cTEeKGQpL9uELK5Q" labelFormat="bold" labelPosition="node">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ihK2hLcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-            <description xmi:type="style:SquareDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subNodeMappings[name='Version']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ihK2hbcTEeKGQpL9uELK5Q"/>
-            <color xmi:type="viewpoint:RGBValues" xmi:id="_ihK2hrcTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer/@containerMappings[name='Project']/@subNodeMappings[name='Version']"/>
-        </ownedDiagramElements>
-      </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']"/>
-      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_ihK2h7cTEeKGQpL9uELK5Q"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Projects%20Overview%20Diagram']/@defaultLayer"/>
-      <target xmi:type="tasks:TaskRepository" href="TaskRepository.xmi#/"/>
-    </ownedRepresentations>
-    <ownedRepresentations xmi:type="table:DTable" xmi:id="_kp7SwLcTEeKGQpL9uELK5Q" name="Intent 0.8 - Tasks to Persons Table" headerColumnWidth="78">
-      <target xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.1"/>
-      <lines xmi:type="table:DLine" xmi:id="_kp7SwbcTEeKGQpL9uELK5Q" label="Bug 1">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        <originMapping xmi:type="description:LineMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@ownedLineMappings[name='Task']"/>
-        <cells xmi:type="table:DCell" xmi:id="_kp7SwrcTEeKGQpL9uELK5Q" label="X" column="_kp7S2bcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <currentStyle xmi:type="table:DCellStyle" xmi:id="_kp7Sw7cTEeKGQpL9uELK5Q" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true">
-            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7SxLcTEeKGQpL9uELK5Q"/>
-            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7SxbcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-            <foregroundStyleOrigin xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-            <backgroundStyleOrigin xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-          </currentStyle>
-          <intersectionMapping xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-        </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_kp7SxrcTEeKGQpL9uELK5Q" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true">
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7Sx7cTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7SyLcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-        </currentStyle>
-      </lines>
-      <lines xmi:type="table:DLine" xmi:id="_kp7SybcTEeKGQpL9uELK5Q" label="Bug 2">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        <originMapping xmi:type="description:LineMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@ownedLineMappings[name='Task']"/>
-        <cells xmi:type="table:DCell" xmi:id="_kp7SyrcTEeKGQpL9uELK5Q" label="X" column="_kp750LcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <currentStyle xmi:type="table:DCellStyle" xmi:id="_kp7Sy7cTEeKGQpL9uELK5Q" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true">
-            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7SzLcTEeKGQpL9uELK5Q"/>
-            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7SzbcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-            <foregroundStyleOrigin xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-            <backgroundStyleOrigin xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-          </currentStyle>
-          <intersectionMapping xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-        </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_kp7SzrcTEeKGQpL9uELK5Q" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true">
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7Sz7cTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7S0LcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-        </currentStyle>
-      </lines>
-      <lines xmi:type="table:DLine" xmi:id="_kp7S0bcTEeKGQpL9uELK5Q" label="Bug 3">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        <originMapping xmi:type="description:LineMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@ownedLineMappings[name='Task']"/>
-        <cells xmi:type="table:DCell" xmi:id="_kp7S0rcTEeKGQpL9uELK5Q" label="X" column="_kp7S2bcTEeKGQpL9uELK5Q">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <currentStyle xmi:type="table:DCellStyle" xmi:id="_kp7S07cTEeKGQpL9uELK5Q" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true">
-            <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7S1LcTEeKGQpL9uELK5Q"/>
-            <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7S1bcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-            <foregroundStyleOrigin xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-            <backgroundStyleOrigin xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-          </currentStyle>
-          <intersectionMapping xmi:type="description:IntersectionMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@intersection.0"/>
-        </cells>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_kp7S1rcTEeKGQpL9uELK5Q" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true">
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7S17cTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7S2LcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-        </currentStyle>
-      </lines>
-      <columns xmi:type="table:DTargetColumn" xmi:id="_kp7S2bcTEeKGQpL9uELK5Q" label="Alex Lagarde" cells="_kp7SwrcTEeKGQpL9uELK5Q _kp7S0rcTEeKGQpL9uELK5Q" width="119">
-        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
-        <semanticElements xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
-        <originMapping xmi:type="description:ElementColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@ownedColumnMappings.0"/>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_kp7S2rcTEeKGQpL9uELK5Q" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true">
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7S27cTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7S3LcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-        </currentStyle>
-      </columns>
-      <columns xmi:type="table:DTargetColumn" xmi:id="_kp750LcTEeKGQpL9uELK5Q" label="Pierre-Charles David" cells="_kp7SyrcTEeKGQpL9uELK5Q" width="162">
-        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
-        <semanticElements xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
-        <originMapping xmi:type="description:ElementColumnMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']/@ownedColumnMappings.0"/>
-        <currentStyle xmi:type="table:DTableElementStyle" xmi:id="_kp750bcTEeKGQpL9uELK5Q" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true">
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp750rcTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kp7507cTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-        </currentStyle>
-      </columns>
-      <description xmi:type="description:CrossTableDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Tasks%20to%20Persons%20CrossTable']"/>
-    </ownedRepresentations>
-    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_lklkMLcTEeKGQpL9uELK5Q" name="Intent 0.8- Version Diagram">
-      <ownedAnnotationEntries xmi:type="description_1:AnnotationEntry" xmi:id="_llEFULcTEeKGQpL9uELK5Q" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="_llEFUbcTEeKGQpL9uELK5Q" type="Viewpoint" element="_lklkMLcTEeKGQpL9uELK5Q" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_llFTcLcTEeKGQpL9uELK5Q" type="2003" element="_lklkMbcTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_llHIoLcTEeKGQpL9uELK5Q" type="5007"/>
-            <children xmi:type="notation:Node" xmi:id="_llIWwLcTEeKGQpL9uELK5Q" type="7004">
-              <styles xmi:type="notation:SortingStyle" xmi:id="_llIWwbcTEeKGQpL9uELK5Q"/>
-              <styles xmi:type="notation:FilteringStyle" xmi:id="_llIWwrcTEeKGQpL9uELK5Q"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_llFTcbcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llFTcrcTEeKGQpL9uELK5Q" y="124"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_llI90LcTEeKGQpL9uELK5Q" type="2003" element="_lklkN7cTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_llKL8LcTEeKGQpL9uELK5Q" type="5007"/>
-            <children xmi:type="notation:Node" xmi:id="_llKzALcTEeKGQpL9uELK5Q" type="7004">
-              <styles xmi:type="notation:SortingStyle" xmi:id="_llKzAbcTEeKGQpL9uELK5Q"/>
-              <styles xmi:type="notation:FilteringStyle" xmi:id="_llKzArcTEeKGQpL9uELK5Q"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_llI90bcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llI90rcTEeKGQpL9uELK5Q" x="386" y="108"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_llLaELcTEeKGQpL9uELK5Q" type="2003" element="_lklkPbcTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_llMBILcTEeKGQpL9uELK5Q" type="5007"/>
-            <children xmi:type="notation:Node" xmi:id="_llN2ULcTEeKGQpL9uELK5Q" type="7004">
-              <styles xmi:type="notation:SortingStyle" xmi:id="_llN2UbcTEeKGQpL9uELK5Q"/>
-              <styles xmi:type="notation:FilteringStyle" xmi:id="_llN2UrcTEeKGQpL9uELK5Q"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_llLaEbcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llLaErcTEeKGQpL9uELK5Q" x="208" y="124"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_llOdYLcTEeKGQpL9uELK5Q" type="2003" element="_lklkQ7cTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_llPrgLcTEeKGQpL9uELK5Q" type="5007"/>
-            <children xmi:type="notation:Node" xmi:id="_llQSkLcTEeKGQpL9uELK5Q" type="7004">
-              <children xmi:type="notation:Node" xmi:id="_llT88LcTEeKGQpL9uELK5Q" type="3010" element="_lklkSbcTEeKGQpL9uELK5Q">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_llT88bcTEeKGQpL9uELK5Q"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_llUkALcTEeKGQpL9uELK5Q" type="3010" element="_lklkTrcTEeKGQpL9uELK5Q">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_llUkAbcTEeKGQpL9uELK5Q"/>
-              </children>
-              <styles xmi:type="notation:SortingStyle" xmi:id="_llQSkbcTEeKGQpL9uELK5Q"/>
-              <styles xmi:type="notation:FilteringStyle" xmi:id="_llQSkrcTEeKGQpL9uELK5Q"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_llOdYbcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llOdYrcTEeKGQpL9uELK5Q" x="130"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_llQ5oLcTEeKGQpL9uELK5Q" type="2003" element="_lklkU7cTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_llRgsLcTEeKGQpL9uELK5Q" type="5007"/>
-            <children xmi:type="notation:Node" xmi:id="_llSHwLcTEeKGQpL9uELK5Q" type="7004">
-              <children xmi:type="notation:Node" xmi:id="_llVyILcTEeKGQpL9uELK5Q" type="3010" element="_lkmLQrcTEeKGQpL9uELK5Q">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_llVyIbcTEeKGQpL9uELK5Q"/>
-              </children>
-              <styles xmi:type="notation:SortingStyle" xmi:id="_llSHwbcTEeKGQpL9uELK5Q"/>
-              <styles xmi:type="notation:FilteringStyle" xmi:id="_llSHwrcTEeKGQpL9uELK5Q"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_llQ5obcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llQ5orcTEeKGQpL9uELK5Q" x="420"/>
-          </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="_llEFUrcTEeKGQpL9uELK5Q"/>
-          <edges xmi:type="notation:Edge" xmi:id="_llaDkLcTEeKGQpL9uELK5Q" type="4001" element="_lkmLR7cTEeKGQpL9uELK5Q" source="_llOdYLcTEeKGQpL9uELK5Q" target="_llFTcLcTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_lldG4LcTEeKGQpL9uELK5Q" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lldG4bcTEeKGQpL9uELK5Q" y="-10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_lle8ELcTEeKGQpL9uELK5Q" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lle8EbcTEeKGQpL9uELK5Q" y="10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_llgxQLcTEeKGQpL9uELK5Q" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llgxQbcTEeKGQpL9uELK5Q" y="10"/>
-            </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_llaDkbcTEeKGQpL9uELK5Q" routing="Tree"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_llaDkrcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_llaDk7cTEeKGQpL9uELK5Q" points="[0, -64, 104, -124]$[0, 29, 104, -31]$[-104, 29, 0, -31]$[-104, 208, 0, 148]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_llsXcLcTEeKGQpL9uELK5Q" id="(0.4948453608247423,1.0)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lls-gLcTEeKGQpL9uELK5Q" id="(0.5,0.0)"/>
-          </edges>
-          <edges xmi:type="notation:Edge" xmi:id="_lltlkLcTEeKGQpL9uELK5Q" type="4001" element="_lkmLTLcTEeKGQpL9uELK5Q" source="_llOdYLcTEeKGQpL9uELK5Q" target="_llLaELcTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_lluzsLcTEeKGQpL9uELK5Q" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lluzsbcTEeKGQpL9uELK5Q" y="-10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_lluzsrcTEeKGQpL9uELK5Q" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lluzs7cTEeKGQpL9uELK5Q" y="10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_llvawLcTEeKGQpL9uELK5Q" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llvawbcTEeKGQpL9uELK5Q" y="10"/>
-            </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_lltlkbcTEeKGQpL9uELK5Q" routing="Tree"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_lltlkrcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lltlk7cTEeKGQpL9uELK5Q" points="[0, 0, -104, -60]$[104, 60, 0, 0]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_llwB0LcTEeKGQpL9uELK5Q" id="(0.4948453608247423,1.0)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_llwB0bcTEeKGQpL9uELK5Q" id="(0.5,0.0)"/>
-          </edges>
-          <edges xmi:type="notation:Edge" xmi:id="_llwo4LcTEeKGQpL9uELK5Q" type="4001" element="_lkmLUbcTEeKGQpL9uELK5Q" source="_llQ5oLcTEeKGQpL9uELK5Q" target="_llI90LcTEeKGQpL9uELK5Q">
-            <children xmi:type="notation:Node" xmi:id="_llxP8LcTEeKGQpL9uELK5Q" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llxP8bcTEeKGQpL9uELK5Q" y="-10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_llxP8rcTEeKGQpL9uELK5Q" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llxP87cTEeKGQpL9uELK5Q" y="10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_llx3ALcTEeKGQpL9uELK5Q" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_llx3AbcTEeKGQpL9uELK5Q" y="10"/>
-            </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_llwo4bcTEeKGQpL9uELK5Q" routing="Tree"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_llwo4rcTEeKGQpL9uELK5Q" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_llwo47cTEeKGQpL9uELK5Q" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_llyeELcTEeKGQpL9uELK5Q" id="(0.5,1.0)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_llyeEbcTEeKGQpL9uELK5Q" id="(0.5,0.0)"/>
-          </edges>
-        </data>
-      </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_lklkMbcTEeKGQpL9uELK5Q" name="Bug 1 (remaining: 3.5)" incomingEdges="_lkmLR7cTEeKGQpL9uELK5Q">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_lklkMrcTEeKGQpL9uELK5Q">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkM7cTEeKGQpL9uELK5Q"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Task']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkNLcTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkNbcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkNrcTEeKGQpL9uELK5Q" red="209" green="209" blue="209"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Task']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_lklkN7cTEeKGQpL9uELK5Q" name="Bug 2 (remaining: 0.0)" incomingEdges="_lkmLUbcTEeKGQpL9uELK5Q">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_lklkOLcTEeKGQpL9uELK5Q">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkObcTEeKGQpL9uELK5Q"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Task']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkOrcTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkO7cTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkPLcTEeKGQpL9uELK5Q" red="209" green="209" blue="209"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Task']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_lklkPbcTEeKGQpL9uELK5Q" name="Bug 3 (remaining: 1.5)" incomingEdges="_lkmLTLcTEeKGQpL9uELK5Q">
-        <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_lklkPrcTEeKGQpL9uELK5Q">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkP7cTEeKGQpL9uELK5Q"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Task']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkQLcTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkQbcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkQrcTEeKGQpL9uELK5Q" red="209" green="209" blue="209"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Task']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_lklkQ7cTEeKGQpL9uELK5Q" name="Alex Lagarde" outgoingEdges="_lkmLR7cTEeKGQpL9uELK5Q _lkmLTLcTEeKGQpL9uELK5Q">
-        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
-        <semanticElements xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_lklkRLcTEeKGQpL9uELK5Q">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkRbcTEeKGQpL9uELK5Q"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkRrcTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkR7cTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkSLcTEeKGQpL9uELK5Q" red="209" green="209" blue="209"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']"/>
-        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_lklkSbcTEeKGQpL9uELK5Q" name="Bug 1">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.0"/>
-          <ownedStyle xmi:type="viewpoint:Ellipse" xmi:id="_lklkSrcTEeKGQpL9uELK5Q">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkS7cTEeKGQpL9uELK5Q"/>
-            <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']/@subNodeMappings[name='Assigned%20tasks']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkTLcTEeKGQpL9uELK5Q"/>
-            <color xmi:type="viewpoint:RGBValues" xmi:id="_lklkTbcTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']/@subNodeMappings[name='Assigned%20tasks']"/>
-        </ownedElements>
-        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_lklkTrcTEeKGQpL9uELK5Q" name="Bug 3">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.2"/>
-          <ownedStyle xmi:type="viewpoint:Ellipse" xmi:id="_lklkT7cTEeKGQpL9uELK5Q">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkULcTEeKGQpL9uELK5Q"/>
-            <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']/@subNodeMappings[name='Assigned%20tasks']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkUbcTEeKGQpL9uELK5Q"/>
-            <color xmi:type="viewpoint:RGBValues" xmi:id="_lklkUrcTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']/@subNodeMappings[name='Assigned%20tasks']"/>
-        </ownedElements>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DNodeList" xmi:id="_lklkU7cTEeKGQpL9uELK5Q" name="Pierre-Charles David" outgoingEdges="_lkmLUbcTEeKGQpL9uELK5Q">
-        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
-        <semanticElements xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
-        <ownedStyle xmi:type="viewpoint:FlatContainerStyle" xmi:id="_lklkVLcTEeKGQpL9uELK5Q">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkVbcTEeKGQpL9uELK5Q"/>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lklkVrcTEeKGQpL9uELK5Q"/>
-          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLQLcTEeKGQpL9uELK5Q" red="255" green="255" blue="255"/>
-          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLQbcTEeKGQpL9uELK5Q" red="209" green="209" blue="209"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']"/>
-        <ownedElements xmi:type="viewpoint:DNodeListElement" xmi:id="_lkmLQrcTEeKGQpL9uELK5Q" name="Bug 2">
-          <target xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <semanticElements xmi:type="tasks:Task" href="TaskRepository.xmi#//@projects.0/@versions.1/@tasks.1"/>
-          <ownedStyle xmi:type="viewpoint:Ellipse" xmi:id="_lkmLQ7cTEeKGQpL9uELK5Q">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLRLcTEeKGQpL9uELK5Q"/>
-            <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']/@subNodeMappings[name='Assigned%20tasks']/@style"/>
-            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLRbcTEeKGQpL9uELK5Q"/>
-            <color xmi:type="viewpoint:RGBValues" xmi:id="_lkmLRrcTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@containerMappings[name='Person']/@subNodeMappings[name='Assigned%20tasks']"/>
-        </ownedElements>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_lkmLR7cTEeKGQpL9uELK5Q" sourceNode="_lklkQ7cTEeKGQpL9uELK5Q" targetNode="_lklkMbcTEeKGQpL9uELK5Q">
-        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
-        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_lkmLSLcTEeKGQpL9uELK5Q" size="2" routingStyle="tree">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']/@style"/>
-          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLSbcTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_lkmLSrcTEeKGQpL9uELK5Q">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLS7cTEeKGQpL9uELK5Q"/>
-          </centerLabelStyle>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_lkmLTLcTEeKGQpL9uELK5Q" sourceNode="_lklkQ7cTEeKGQpL9uELK5Q" targetNode="_lklkPbcTEeKGQpL9uELK5Q">
-        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.0"/>
-        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_lkmLTbcTEeKGQpL9uELK5Q" size="2" routingStyle="tree">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']/@style"/>
-          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLTrcTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_lkmLT7cTEeKGQpL9uELK5Q">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLULcTEeKGQpL9uELK5Q"/>
-          </centerLabelStyle>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_lkmLUbcTEeKGQpL9uELK5Q" sourceNode="_lklkU7cTEeKGQpL9uELK5Q" targetNode="_lklkN7cTEeKGQpL9uELK5Q">
-        <target xmi:type="tasks:Person" href="TaskRepository.xmi#//@persons.1"/>
-        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_lkmLUrcTEeKGQpL9uELK5Q" size="2" routingStyle="tree">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']/@style"/>
-          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLU7cTEeKGQpL9uELK5Q" red="136" green="136" blue="136"/>
-          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_lkmLVLcTEeKGQpL9uELK5Q">
-            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_lkmLVbcTEeKGQpL9uELK5Q"/>
-          </centerLabelStyle>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer/@edgeMappings[name='Person%20to%20task']"/>
-      </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']"/>
-      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_lkmLVrcTEeKGQpL9uELK5Q"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']/@ownedRepresentations[name='Project%20Version%20Diagram']/@defaultLayer"/>
-      <target xmi:type="tasks:ProjectVersion" href="TaskRepository.xmi#//@projects.0/@versions.1"/>
-    </ownedRepresentations>
-    <viewpoint xmi:type="description_1:Viewpoint" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Projects']"/>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Projects']"/>
   </ownedViews>
-  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_FLWt8LZhEeK5qemgIM7FkA" initialized="true">
-    <viewpoint xmi:type="description_1:Viewpoint" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM.odesign#//@ownedViewpoints[name='Management']"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_T_O_UL1vEeKDVdOV5nq1Rg" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.sirius.example.tasks.description/description/TaskVSM_01-easy.odesign#//@ownedViewpoints[name='Individuals']"/>
   </ownedViews>
 </viewpoint:DAnalysis>
