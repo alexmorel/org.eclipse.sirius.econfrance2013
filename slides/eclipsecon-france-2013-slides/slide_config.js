@@ -1,7 +1,7 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Sirius by Example<br/>Build Your Own Diagram, Table and Tree Editors in 20 Minutes',
+    title: 'Sirius by Example&nbsp;<br/><br/>   Build Your Own Diagram, Table and Tree Editors in 20 Minutes&nbsp;',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
@@ -17,7 +17,7 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Pierre-Charles David & Alex Lagarde (Morel)',
+    name: 'Pierre-Charles David & Alex Lagarde (Morel)&nbsp;',
     company: 'Software Engineers, Obeo',
     gplus: 'https://plus.google.com/117030173458875569066',
     twitter: '@yourhandle',
