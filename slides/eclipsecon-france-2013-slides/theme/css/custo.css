@@ -4,7 +4,7 @@ b {
 article {
 	color:#515151;
 }
-
+ol {list-style-type:decimal;}
 .stroke {
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
