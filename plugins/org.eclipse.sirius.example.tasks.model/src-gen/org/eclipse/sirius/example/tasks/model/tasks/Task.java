@@ -53,6 +53,7 @@ public interface Task extends AbstractPlanableElement {
 
 	/**
 	 * Returns the value of the '<em><b>Priority</b></em>' attribute.
+	 * The default value is <code>"Normal"</code>.
 	 * The literals are from the enumeration {@link org.eclipse.sirius.example.tasks.model.tasks.Priority}.
 	 * <!-- begin-user-doc -->
 	 * <p>
@@ -64,7 +65,7 @@ public interface Task extends AbstractPlanableElement {
 	 * @see org.eclipse.sirius.example.tasks.model.tasks.Priority
 	 * @see #setPriority(Priority)
 	 * @see org.eclipse.sirius.example.tasks.model.tasks.TasksPackage#getTask_Priority()
-	 * @model required="true"
+	 * @model default="Normal" required="true"
 	 * @generated
 	 */
 	Priority getPriority();

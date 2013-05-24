@@ -239,15 +239,6 @@ public class TasksPackageImpl extends EPackageImpl implements TasksPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getAbstractNamedElement_Id() {
-		return (EAttribute)abstractNamedElementEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EClass getAbstractPlanableElement() {
 		return abstractPlanableElementEClass;
 	}
@@ -435,7 +426,6 @@ public class TasksPackageImpl extends EPackageImpl implements TasksPackage {
 
 		abstractNamedElementEClass = createEClass(ABSTRACT_NAMED_ELEMENT);
 		createEAttribute(abstractNamedElementEClass, ABSTRACT_NAMED_ELEMENT__NAME);
-		createEAttribute(abstractNamedElementEClass, ABSTRACT_NAMED_ELEMENT__ID);
 
 		abstractPlanableElementEClass = createEClass(ABSTRACT_PLANABLE_ELEMENT);
 		createEAttribute(abstractPlanableElementEClass, ABSTRACT_PLANABLE_ELEMENT__DUE_DATE);
@@ -497,16 +487,15 @@ public class TasksPackageImpl extends EPackageImpl implements TasksPackage {
 		// Initialize classes and features; add operations and parameters
 		initEClass(taskEClass, Task.class, "Task", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getTask_Kind(), this.getType(), "kind", null, 1, 1, Task.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getTask_Priority(), this.getPriority(), "priority", null, 1, 1, Task.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getTask_Priority(), this.getPriority(), "priority", "Normal", 1, 1, Task.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getTask_Assignee(), this.getPerson(), this.getPerson_IsInvolvedInTasks(), "assignee", null, 0, 1, Task.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(projectVersionEClass, ProjectVersion.class, "ProjectVersion", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getProjectVersion_Tasks(), this.getTask(), null, "tasks", null, 0, -1, ProjectVersion.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getProjectVersion_Released(), ecorePackage.getEBoolean(), "released", null, 0, 1, ProjectVersion.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getProjectVersion_Released(), ecorePackage.getEDate(), "released", null, 0, 1, ProjectVersion.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(abstractNamedElementEClass, AbstractNamedElement.class, "AbstractNamedElement", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getAbstractNamedElement_Name(), ecorePackage.getEString(), "name", null, 1, 1, AbstractNamedElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getAbstractNamedElement_Id(), ecorePackage.getEString(), "id", null, 1, 1, AbstractNamedElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(abstractPlanableElementEClass, AbstractPlanableElement.class, "AbstractPlanableElement", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getAbstractPlanableElement_DueDate(), ecorePackage.getEDate(), "dueDate", null, 1, 1, AbstractPlanableElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
