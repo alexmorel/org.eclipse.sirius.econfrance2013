@@ -134,7 +134,7 @@ slides > slide.part1:before {
   -moz-background-size: 30px 30px;
   -o-background-size: 30px 30px;
   background-size: 30px 30px;
-  content: "1. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+  content: "1. What is Sirius?";
 }
 
 slides > slide.part2:before {
