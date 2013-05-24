@@ -103,7 +103,7 @@ public class AbstractPlanableElementItemProvider
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 ItemPropertyDescriptor.REAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -119,13 +119,13 @@ public class AbstractPlanableElementItemProvider
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_AbstractPlanableElement_Remaining_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_AbstractPlanableElement_Remaining_feature", "_UI_AbstractPlanableElement_type"),
+				 getString("_UI_AbstractPlanableElement_remaining_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_AbstractPlanableElement_remaining_feature", "_UI_AbstractPlanableElement_type"),
 				 TasksPackage.Literals.ABSTRACT_PLANABLE_ELEMENT__REMAINING,
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 ItemPropertyDescriptor.REAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
