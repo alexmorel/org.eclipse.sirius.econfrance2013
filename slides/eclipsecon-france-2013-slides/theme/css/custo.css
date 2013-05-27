@@ -143,7 +143,7 @@ slides > slide.part2:before {
   -moz-background-size: 30px 30px;
   -o-background-size: 30px 30px;
   background-size: 30px 30px;
-  content: "2. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+  content: "2. Sirius In Action";
 }
 
 slides > slide.part3:before {
@@ -152,7 +152,7 @@ slides > slide.part3:before {
   -moz-background-size: 30px 30px;
   -o-background-size: 30px 30px;
   background-size: 30px 30px;
-  content: "3. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+  content: "3. Conclusion";
 }
 slides > slide.part4:before {
   background: url(../../images/Intent/Image-Intent_logo_cropped.png) no-repeat 0 50%;
