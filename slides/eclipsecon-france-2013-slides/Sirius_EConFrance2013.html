@@ -44,9 +44,9 @@ URL: https://code.google.com/p/io-2012-slides
 
   </slide>
  
-  <slide class="segue nobackground partTitle" style="background: url(images/titles/title01.png); background-size: 100%;">
+  <slide class="segue nobackground partTitle" style="background: url(images/01_background.png); background-size: 100%;">
 	  <h2 style="top:-20px">1. What is Sirius?&nbsp;</span></h2>
-	  <aside style="top:20px; width:730px" class="gdbar" ></aside>
+	  <aside style="top:20px; width:550px" class="gdbar" ></aside>
   </slide>
 
   
@@ -59,10 +59,13 @@ URL: https://code.google.com/p/io-2012-slides
     <article class="noBullets">
 		<p>
 			<ul style="margin-top:-10px;padding-left:-30px">
-				<li>A tool to <b>quickly</b> define <b>custom</b> multi-view worbenches (based on graphical editors)<br/><br/></li>
+				<li>A tool to <b>quickly</b> define <b>custom</b> multi-view worbenches (based on graphical editors)<br/><br/>
+				<img src="images/01-bpmn.png" img src="witdh:75%" />
+				</li>
+				
 				<li>Based on & compatible with <b>Eclipse technologies</b> (EMF, EMFT, GEF/GMF, Acceleo, SWT/JFace)<br/><br/></li>
 			</ul>
-		 </p>IMAGESSS
+		 </p>
 		</article>
 	</slide>
 	
@@ -76,13 +79,15 @@ URL: https://code.google.com/p/io-2012-slides
 		<p>
 			<ul>
 				<li>For developers:</li>
+					<img src="images/benefits_01.png" style="float:left;padding-right:50px"/>
 					<ul>
-						<li>No need to a GMF Wizard</li>
+						<li>No need to be a GMF Wizard</li>
 						<li>Dynamic & iterative development</li>
 					</ul>
-					&rarr; reduce cost & complexity<br/><br/><br/><br/></li>
-					IMAGESSS
-				<li>For end-users: 
+					&rarr; reduce cost & complexity<br/><br/><br/><br/>
+				
+				<li>For end-users: </li>
+					<img src="images/benefits_02.png" style="float:left;padding-right:50px"/>
 					<ul>
 						<li>Tooling adapted to needs and workflows</li>
 						<li>Improved experience (compared to raw GMF)</li>
@@ -93,7 +98,7 @@ URL: https://code.google.com/p/io-2012-slides
 		</article>
 	</slide>
 	
-  <slide class="part1">
+  <slide class="nobackground">
     <hgroup>
       <h2>
 		Creating a Modeling workbench with Sirius
@@ -102,28 +107,29 @@ URL: https://code.google.com/p/io-2012-slides
     <article class="noBullets">
 		<p>
 			<img src="images/vsm.gif" style="float:left"/>
-			<ul style="margin-top:-10px;padding-left:70px">
+			<ul style="margin-top:-30px;padding-left:70px">
 				<li><b>Specification environment</b> (<u>Specifier/Developer</u>)
 					<ul>
 					    <li>Define <b>custom</b> multi-view worbenches (Diagrams, Trees, Tables Editors...)</li>
 						<li>With <b>little technical knowledge</b></li>
 						<li>Get a working modeler <b>fast</b> (POC)</li>
 						<li>Highly <b>customizable</b> (native tooling, Java or extension points)</li>
-						<br/>
 					</ul>
 				</li>
 			</ul>
 			<div style="clear:both"/>
-				<img src="images/modelingproject.png" style="float:left"/>
+				<img src="images/modelingproject.png" style="float:left;"/>
+				<br/>
 			<ul  style="margin-top:-10px;padding-left:70px;color:#A0A0A0">
 				<li>The associated runtime    (<u>End-user</u>)</li>
-			</ul>
-			<img src="images/vsm.png" style="float:right;width:60%" />
+			</ul>			
 		 </p>
+		 <div style="clear:both"/>
+			<img src="images/vsm_runtime.png" style="float:left;width:105%" />
 		</article>
 	</slide>
 	
-	<slide class="part1">
+	<slide class="nobackground">
     <hgroup>
       <h2>
 		Using a Sirius Modeling workbench
@@ -132,7 +138,7 @@ URL: https://code.google.com/p/io-2012-slides
     <article class="noBullets">
 		<p>
 			<img src="images/vsm.gif" style="float:left"/>
-			<ul style="margin-top:-10px;padding-left:70px;color:#A0A0A0;margin-bottom:80px;"><!--margin-bottom:220px-->
+			<ul style="margin-top:-30px;padding-left:70px;color:#A0A0A0;margin-bottom:80px;"><!--margin-bottom:220px-->
 				<li>Specification environment (<u>Specifier/Developer</u>)</li>
 			</ul>
 			<div style="clear:both"/>
@@ -146,8 +152,9 @@ URL: https://code.google.com/p/io-2012-slides
 				    </ul>
 				</li>				
 			</ul>
-			<img src="images/runtime.png" style="float:right;width:60%" />
 		 </p>
+		 <div style="clear:both"/>
+			<img src="images/vsm_runtime.png" style="float:left;width:105%" />
 		</article>
 	</slide>
 	
@@ -293,9 +300,9 @@ URL: https://code.google.com/p/io-2012-slides
 			- Many other <b>Industrial customers</b> (Insurance: MAIF & MMA, Space Agency: ESA & CNES, Ministry of Defence...)<br/><br/>
 			- Part of the <img src="images/logoOD.png" style="width:15%;padding-right:10px;padding-left:10px;"/> and
 			<img src="images/logo_SmartEA.png" style="width:13%;padding-right:10px;padding-left:10px;"/> (proprietary) products<br/><br/><br/>
-			- Many modelers on the <a href="http://marketplace.obeonetwork.com/" target="marketplace">MarketPlace</a> (Risk Analysis, SysML, TOGAF, Entity... Designers)<br/><br/><br/>
-			<img src="images/need_you.jpg" style="height:20%;float:left"/><br/><br/> <b> You</b>: soon to be an official Eclipse project (Eclipse Luna)<br/>
+			- Many modelers on the <a href="http://marketplace.obeonetwork.com/" target="marketplace">MarketPlace</a> (Risk Analysis, SysML, TOGAF, Entity... Designers)<br/><br/><br/>	
 			- UML Designer: Open Source (on <a href="https://github.com/ObeoNetwork/UML-Modeling/" target="github">Github</a>) - 1300+ downloads in May 2013<br/><br/><br/>
+			<img src="images/need_you.jpg" style="height:20%;float:left"/><br/><br/> <b> You</b>: soon to be an official Eclipse project (Eclipse Luna)<br/>
 			
 		</ul>
 		</article>
@@ -310,23 +317,35 @@ URL: https://code.google.com/p/io-2012-slides
   <slide class="part2">
 		<h2>Demo context</h2>
 		<hr/>
+		<img src="images/logoOD.png" style="float:left;padding-right:50px"/>
 		<ul>
 			<li> Using Obeo Designer for convenience</li>	
 			<li> Full-featured trial version available at <a href="http://www.obeodesigner.com/">http://www.obeodesigner.com/</a></li>	
 			<li> Demo sources available on <a href="https://github.com/alagarde/org.eclipse.sirius.econfrance2013">GitHub</a></li>	
 		</ul>
 		<br/><br/>
-		<ul><li>Alex will play the Customer, Pierre-Charles will play the Specifier</li>
-		<li> We'll build modeler(s) for a simple bug tracker/project manager</li></ul>	
-		IMAGE
+		<table>
+			<tr>
+				<td style="text-align:center;color:black">Alex will play the Customer
+				</td>
+				<td  style="color:black;width:50%;text-align:center;"> <b style="color:black;">Pierre-Charles will play the Specifier</b>
+				</td>			
+			</tr>
+			<tr>
+				<td style="text-align:center;color:black">Express needs (no technical knowledge)
+				</td>
+				<td  style="color:black;width:50%;text-align:center;"> <b style="color:black;">Implements the modelers</b>
+				</td>	
+			</tr>
+		</table>
   </slide>
   
   <slide class="part2">
 		<h2>Sirius In Action</h2>
 		<hr/>
-		<div style="text-align:center">
-			What the customer asks for : 
-			<img src="images/drawing.png"/>
+		<div style="text-align:center"><br/>
+			What the customer asks for : <br/> <br/>
+			<img src="images/drawing.png" style="width:50%">
 		</div>
   </slide>
   
@@ -334,10 +353,10 @@ URL: https://code.google.com/p/io-2012-slides
 		<h2>Sirius In Action</h2>
 		<hr/>
 		<div style="text-align:center">
-			What the customer asks for: 
-			<img src="images/drawing.png"/><br/>
-			What the custom got and actually needed:
-			<img src="images/drawing.png"/><br/>
+			What the customer asks for: <br/>
+			<img src="images/drawing.png" style="width:15%"/><br/><br/>
+			What the custom got and actually needed:<br/>
+			<img src="images/drawing.png" style="width:40%"/><br/>
 		</div>
   </slide>
   
@@ -366,7 +385,7 @@ URL: https://code.google.com/p/io-2012-slides
 		3. Open-source is the next step:<br/>
 			<span style="padding-left:50px">- Will be released in 2013 as an official Eclipse project </span>
 			<br/>
-			<span style="padding-left:50px">- 10 full-time commiters</span>
+			<span style="padding-left:50px">- 17 full-time commiters</span>
 	   </article>
     </hgroup>
   </slide>
