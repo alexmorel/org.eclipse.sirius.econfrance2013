@@ -314,8 +314,7 @@ SlideDeck.prototype.loadConfig_ = function(config) {
     this.makeBuildLists_();
   }
 
-  if (settings.title) {
-    document.title = settings.title.replace(/<br\/?>/, ' ') + ' - Google IO 2012';
+  if (settings.title) {   
     document.querySelector('[data-config-title]').innerHTML = settings.title;
   }
 

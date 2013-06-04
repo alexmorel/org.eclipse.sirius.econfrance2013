@@ -17,8 +17,8 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Pierre-Charles David & Alex Lagarde (Morel)&nbsp;',
-    company: 'Software Engineers, Obeo',
+    name: 'Pierre-Charles David & Alex Lagarde (Obeo)&nbsp;<br/>Stephane Bonnet (Thales)&nbsp;',
+    company: ' ',
     gplus: 'https://plus.google.com/117030173458875569066',
     twitter: '@yourhandle',
     www: 'http://www.you.com',
