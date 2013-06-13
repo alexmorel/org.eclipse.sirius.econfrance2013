@@ -2,6 +2,7 @@
  */
 package org.eclipse.sirius.example.tasks.model.tasks;
 
+import java.util.Date;
 import org.eclipse.emf.common.util.EList;
 
 /**
@@ -13,7 +14,7 @@ import org.eclipse.emf.common.util.EList;
  * The following features are supported:
  * <ul>
  *   <li>{@link org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#getTasks <em>Tasks</em>}</li>
- *   <li>{@link org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#isReleased <em>Released</em>}</li>
+ *   <li>{@link org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#getReleased <em>Released</em>}</li>
  * </ul>
  * </p>
  *
@@ -47,21 +48,21 @@ public interface ProjectVersion extends AbstractPlanableElement {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Released</em>' attribute.
-	 * @see #setReleased(boolean)
+	 * @see #setReleased(Date)
 	 * @see org.eclipse.sirius.example.tasks.model.tasks.TasksPackage#getProjectVersion_Released()
 	 * @model
 	 * @generated
 	 */
-	boolean isReleased();
+	Date getReleased();
 
 	/**
-	 * Sets the value of the '{@link org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#isReleased <em>Released</em>}' attribute.
+	 * Sets the value of the '{@link org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#getReleased <em>Released</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Released</em>' attribute.
-	 * @see #isReleased()
+	 * @see #getReleased()
 	 * @generated
 	 */
-	void setReleased(boolean value);
+	void setReleased(Date value);
 
 } // ProjectVersion

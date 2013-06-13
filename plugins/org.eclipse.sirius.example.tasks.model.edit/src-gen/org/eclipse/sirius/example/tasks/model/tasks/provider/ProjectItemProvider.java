@@ -34,7 +34,7 @@ import org.eclipse.sirius.example.tasks.model.tasks.TasksPackage;
  * @generated
  */
 public class ProjectItemProvider
-	extends ItemProviderAdapter
+	extends AbstractNamedElementItemProvider
 	implements
 		IEditingDomainItemProvider,
 		IStructuredItemContentProvider,
@@ -138,7 +138,10 @@ public class ProjectItemProvider
 	 */
 	@Override
 	public String getText(Object object) {
-		return getString("_UI_Project_type");
+		String label = ((Project)object).getName();
+		return label == null || label.length() == 0 ?
+			getString("_UI_Project_type") :
+			getString("_UI_Project_type") + " " + label;
 	}
 
 	/**
@@ -175,17 +178,6 @@ public class ProjectItemProvider
 			(createChildParameter
 				(TasksPackage.Literals.PROJECT__VERSIONS,
 				 TasksFactory.eINSTANCE.createProjectVersion()));
-	}
-
-	/**
-	 * Return the resource locator for this item provider's resources.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public ResourceLocator getResourceLocator() {
-		return TasksEditPlugin.INSTANCE;
 	}
 
 }

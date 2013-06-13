@@ -76,22 +76,13 @@ public interface TasksPackage extends EPackage {
 	int ABSTRACT_NAMED_ELEMENT__NAME = 0;
 
 	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ABSTRACT_NAMED_ELEMENT__ID = 1;
-
-	/**
 	 * The number of structural features of the '<em>Abstract Named Element</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ABSTRACT_NAMED_ELEMENT_FEATURE_COUNT = 2;
+	int ABSTRACT_NAMED_ELEMENT_FEATURE_COUNT = 1;
 
 	/**
 	 * The meta object id for the '{@link org.eclipse.sirius.example.tasks.model.tasks.impl.AbstractPlanableElementImpl <em>Abstract Planable Element</em>}' class.
@@ -111,15 +102,6 @@ public interface TasksPackage extends EPackage {
 	 * @ordered
 	 */
 	int ABSTRACT_PLANABLE_ELEMENT__NAME = ABSTRACT_NAMED_ELEMENT__NAME;
-
-	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ABSTRACT_PLANABLE_ELEMENT__ID = ABSTRACT_NAMED_ELEMENT__ID;
 
 	/**
 	 * The feature id for the '<em><b>Due Date</b></em>' attribute.
@@ -175,15 +157,6 @@ public interface TasksPackage extends EPackage {
 	 * @ordered
 	 */
 	int TASK__NAME = ABSTRACT_PLANABLE_ELEMENT__NAME;
-
-	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int TASK__ID = ABSTRACT_PLANABLE_ELEMENT__ID;
 
 	/**
 	 * The feature id for the '<em><b>Due Date</b></em>' attribute.
@@ -266,15 +239,6 @@ public interface TasksPackage extends EPackage {
 	 * @ordered
 	 */
 	int PROJECT_VERSION__NAME = ABSTRACT_PLANABLE_ELEMENT__NAME;
-
-	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int PROJECT_VERSION__ID = ABSTRACT_PLANABLE_ELEMENT__ID;
 
 	/**
 	 * The feature id for the '<em><b>Due Date</b></em>' attribute.
@@ -403,15 +367,6 @@ public interface TasksPackage extends EPackage {
 	 * @ordered
 	 */
 	int PROJECT__NAME = ABSTRACT_NAMED_ELEMENT__NAME;
-
-	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int PROJECT__ID = ABSTRACT_NAMED_ELEMENT__ID;
 
 	/**
 	 * The feature id for the '<em><b>Is Lead By</b></em>' reference.
@@ -563,11 +518,11 @@ public interface TasksPackage extends EPackage {
 	EReference getProjectVersion_Tasks();
 
 	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#isReleased <em>Released</em>}'.
+	 * Returns the meta object for the attribute '{@link org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#getReleased <em>Released</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Released</em>'.
-	 * @see org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#isReleased()
+	 * @see org.eclipse.sirius.example.tasks.model.tasks.ProjectVersion#getReleased()
 	 * @see #getProjectVersion()
 	 * @generated
 	 */
@@ -593,17 +548,6 @@ public interface TasksPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getAbstractNamedElement_Name();
-
-	/**
-	 * Returns the meta object for the attribute '{@link org.eclipse.sirius.example.tasks.model.tasks.AbstractNamedElement#getId <em>Id</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Id</em>'.
-	 * @see org.eclipse.sirius.example.tasks.model.tasks.AbstractNamedElement#getId()
-	 * @see #getAbstractNamedElement()
-	 * @generated
-	 */
-	EAttribute getAbstractNamedElement_Id();
 
 	/**
 	 * Returns the meta object for class '{@link org.eclipse.sirius.example.tasks.model.tasks.AbstractPlanableElement <em>Abstract Planable Element</em>}'.
@@ -885,14 +829,6 @@ public interface TasksPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute ABSTRACT_NAMED_ELEMENT__NAME = eINSTANCE.getAbstractNamedElement_Name();
-
-		/**
-		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute ABSTRACT_NAMED_ELEMENT__ID = eINSTANCE.getAbstractNamedElement_Id();
 
 		/**
 		 * The meta object literal for the '{@link org.eclipse.sirius.example.tasks.model.tasks.impl.AbstractPlanableElementImpl <em>Abstract Planable Element</em>}' class.

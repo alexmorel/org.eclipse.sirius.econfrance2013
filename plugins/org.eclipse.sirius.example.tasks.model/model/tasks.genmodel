@@ -24,10 +24,10 @@
     </genClasses>
     <genClasses ecoreClass="tasks.ecore#//ProjectVersion">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tasks.ecore#//ProjectVersion/tasks"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tasks.ecore#//ProjectVersion/released"/>
     </genClasses>
     <genClasses image="false" ecoreClass="tasks.ecore#//AbstractNamedElement">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tasks.ecore#//AbstractNamedElement/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tasks.ecore#//AbstractNamedElement/id"/>
     </genClasses>
     <genClasses image="false" ecoreClass="tasks.ecore#//AbstractPlanableElement">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tasks.ecore#//AbstractPlanableElement/dueDate"/>

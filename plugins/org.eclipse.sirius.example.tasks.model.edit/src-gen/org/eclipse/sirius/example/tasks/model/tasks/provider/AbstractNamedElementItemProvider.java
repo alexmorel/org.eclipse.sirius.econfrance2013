@@ -61,7 +61,6 @@ public class AbstractNamedElementItemProvider
 			super.getPropertyDescriptors(object);
 
 			addNamePropertyDescriptor(object);
-			addIdPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -80,28 +79,6 @@ public class AbstractNamedElementItemProvider
 				 getString("_UI_AbstractNamedElement_name_feature"),
 				 getString("_UI_PropertyDescriptor_description", "_UI_AbstractNamedElement_name_feature", "_UI_AbstractNamedElement_type"),
 				 TasksPackage.Literals.ABSTRACT_NAMED_ELEMENT__NAME,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Id feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addIdPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_AbstractNamedElement_id_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_AbstractNamedElement_id_feature", "_UI_AbstractNamedElement_type"),
-				 TasksPackage.Literals.ABSTRACT_NAMED_ELEMENT__ID,
 				 true,
 				 false,
 				 false,
@@ -137,7 +114,6 @@ public class AbstractNamedElementItemProvider
 
 		switch (notification.getFeatureID(AbstractNamedElement.class)) {
 			case TasksPackage.ABSTRACT_NAMED_ELEMENT__NAME:
-			case TasksPackage.ABSTRACT_NAMED_ELEMENT__ID:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}
