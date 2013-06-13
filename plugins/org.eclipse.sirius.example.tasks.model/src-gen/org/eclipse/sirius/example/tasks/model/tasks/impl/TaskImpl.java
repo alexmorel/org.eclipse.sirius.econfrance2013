@@ -60,7 +60,7 @@ public class TaskImpl extends AbstractPlanableElementImpl implements Task {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final Priority PRIORITY_EDEFAULT = Priority.MINOR;
+	protected static final Priority PRIORITY_EDEFAULT = Priority.NORMAL;
 
 	/**
 	 * The cached value of the '{@link #getPriority() <em>Priority</em>}' attribute.

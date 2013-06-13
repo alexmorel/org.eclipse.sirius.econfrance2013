@@ -5,14 +5,14 @@
   <eClassifiers xsi:type="ecore:EClass" name="Task" eSuperTypes="#//AbstractPlanableElement">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" lowerBound="1" eType="#//Type"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="priority" lowerBound="1"
-        eType="#//Priority"/>
+        eType="#//Priority" defaultValueLiteral="Normal"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="assignee" eType="#//Person"
         eOpposite="#//Person/isInvolvedInTasks"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ProjectVersion" eSuperTypes="#//AbstractPlanableElement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="tasks" upperBound="-1"
         eType="#//Task" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="released" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="released" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="Priority">
     <eLiterals name="Minor"/>
@@ -26,7 +26,6 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AbstractNamedElement" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AbstractPlanableElement" abstract="true"
       eSuperTypes="#//AbstractNamedElement">

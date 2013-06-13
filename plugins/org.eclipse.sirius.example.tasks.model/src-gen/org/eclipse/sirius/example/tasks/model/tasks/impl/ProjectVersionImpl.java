@@ -4,6 +4,7 @@ package org.eclipse.sirius.example.tasks.model.tasks.impl;
 
 import java.util.Collection;
 
+import java.util.Date;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 
@@ -28,7 +29,7 @@ import org.eclipse.sirius.example.tasks.model.tasks.TasksPackage;
  * The following features are implemented:
  * <ul>
  *   <li>{@link org.eclipse.sirius.example.tasks.model.tasks.impl.ProjectVersionImpl#getTasks <em>Tasks</em>}</li>
- *   <li>{@link org.eclipse.sirius.example.tasks.model.tasks.impl.ProjectVersionImpl#isReleased <em>Released</em>}</li>
+ *   <li>{@link org.eclipse.sirius.example.tasks.model.tasks.impl.ProjectVersionImpl#getReleased <em>Released</em>}</li>
  * </ul>
  * </p>
  *
@@ -46,23 +47,23 @@ public class ProjectVersionImpl extends AbstractPlanableElementImpl implements P
 	protected EList<Task> tasks;
 
 	/**
-	 * The default value of the '{@link #isReleased() <em>Released</em>}' attribute.
+	 * The default value of the '{@link #getReleased() <em>Released</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #isReleased()
+	 * @see #getReleased()
 	 * @generated
 	 * @ordered
 	 */
-	protected static final boolean RELEASED_EDEFAULT = false;
+	protected static final Date RELEASED_EDEFAULT = null;
 	/**
-	 * The cached value of the '{@link #isReleased() <em>Released</em>}' attribute.
+	 * The cached value of the '{@link #getReleased() <em>Released</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #isReleased()
+	 * @see #getReleased()
 	 * @generated
 	 * @ordered
 	 */
-	protected boolean released = RELEASED_EDEFAULT;
+	protected Date released = RELEASED_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -100,7 +101,7 @@ public class ProjectVersionImpl extends AbstractPlanableElementImpl implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public boolean isReleased() {
+	public Date getReleased() {
 		return released;
 	}
 
@@ -109,8 +110,8 @@ public class ProjectVersionImpl extends AbstractPlanableElementImpl implements P
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setReleased(boolean newReleased) {
-		boolean oldReleased = released;
+	public void setReleased(Date newReleased) {
+		Date oldReleased = released;
 		released = newReleased;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, TasksPackage.PROJECT_VERSION__RELEASED, oldReleased, released));
@@ -141,7 +142,7 @@ public class ProjectVersionImpl extends AbstractPlanableElementImpl implements P
 			case TasksPackage.PROJECT_VERSION__TASKS:
 				return getTasks();
 			case TasksPackage.PROJECT_VERSION__RELEASED:
-				return isReleased();
+				return getReleased();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -160,7 +161,7 @@ public class ProjectVersionImpl extends AbstractPlanableElementImpl implements P
 				getTasks().addAll((Collection<? extends Task>)newValue);
 				return;
 			case TasksPackage.PROJECT_VERSION__RELEASED:
-				setReleased((Boolean)newValue);
+				setReleased((Date)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -195,7 +196,7 @@ public class ProjectVersionImpl extends AbstractPlanableElementImpl implements P
 			case TasksPackage.PROJECT_VERSION__TASKS:
 				return tasks != null && !tasks.isEmpty();
 			case TasksPackage.PROJECT_VERSION__RELEASED:
-				return released != RELEASED_EDEFAULT;
+				return RELEASED_EDEFAULT == null ? released != null : !RELEASED_EDEFAULT.equals(released);
 		}
 		return super.eIsSet(featureID);
 	}
